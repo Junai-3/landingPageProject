@@ -1,10 +1,10 @@
 body {
     outline: 2px solid black;
-    padding-bottom: 50px;
 }
 
 div.header {
     outline: 10px solid greenyellow;
+    background-color: #1f2937;
     padding-bottom: 50px;
 }
 
@@ -15,6 +15,14 @@ div.body-section {
 
 div.footer {
     outline: 10px solid purple;
+    background-color: #1f2937;
     padding-bottom: 50px;
 }
 
+div.body-section.first {
+    background-color: #1f2937;
+}
+
+div.body-section.third {
+    background-color: #E5E7EB;
+}
