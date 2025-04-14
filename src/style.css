@@ -1,0 +1,19 @@
+body {
+    outline: 2px solid black;
+    padding-bottom: 50px;
+}
+
+
+
+div.topbar {
+    outline: 5px solid greenyellow;
+    padding-bottom: 50px;
+}
+
+div.body-section {
+    outline: 5px solid blue;
+    padding-bottom: 200px;
+}
+
+
+
