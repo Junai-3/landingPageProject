@@ -3,10 +3,8 @@ body {
     padding-bottom: 50px;
 }
 
-
-
-div.topbar {
-    outline: 5px solid greenyellow;
+div.header {
+    outline: 10px solid greenyellow;
     padding-bottom: 50px;
 }
 
@@ -15,5 +13,8 @@ div.body-section {
     padding-bottom: 200px;
 }
 
-
+div.footer {
+    outline: 10px solid purple;
+    padding-bottom: 50px;
+}
 
