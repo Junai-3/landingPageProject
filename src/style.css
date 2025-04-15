@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-content: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex: 1 1 1;
 
 }
@@ -33,6 +33,15 @@
     text-align: center;
 }
 
+.body-section.first {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1 1 1;
+}
+
 .body-section.second {
     text-align: center;
 }
@@ -48,15 +57,10 @@
     object-fit: contain;
 }
 
-.main-div.first {
-    display:flex;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
+.image.group-photo {
+    object-fit: contain;
+    height: 100px;
+    width: auto;
 }
 
-.group-photo {
-    height: 50%;
-    width: 50%;
-}
 
