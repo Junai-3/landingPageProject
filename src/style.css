@@ -2,21 +2,19 @@ body {
     outline: 2px solid black;
 }
 
-div.header {
+.header {
     outline: 10px solid greenyellow;
     background-color: #1f2937;
-    padding-bottom: 50px;
 }
 
 div.body-section {
     outline: 5px solid blue;
-    padding-bottom: 200px;
+
 }
 
 div.footer {
     outline: 10px solid purple;
     background-color: #1f2937;
-    padding-bottom: 50px;
     text-align: center;
 }
 
@@ -37,15 +35,6 @@ div.body-section.third {
 div .child {
     outline: 1px solid red;
     display: inline-block;
-    padding: 20px;
 }
 
-div .parent {
-    display: block;
-    text-align: center;
-}
 
-.header .parent {
-    display: inline-block;
-    padding-left: 70px;
-}
