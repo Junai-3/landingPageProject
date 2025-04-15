@@ -3,38 +3,29 @@ body {
 }
 
 .header {
-    outline: 10px solid greenyellow;
     background-color: #1f2937;
 }
 
-div.body-section {
-    outline: 5px solid blue;
-
-}
-
-div.footer {
-    outline: 10px solid purple;
+.footer {
     background-color: #1f2937;
     text-align: center;
 }
 
-div.body-section.first {
+.body-section.first {
     background-color: #1f2937;
     text-align: center;
 }
 
-div.body-section.second {
+.body-section.second {
     text-align: center;
 }
 
-div.body-section.third {
+.body-section.third {
     text-align: center;
     background-color: #E5E7EB;
 }
 
 div .child {
     outline: 1px solid red;
-    display: inline-block;
 }
-
 
