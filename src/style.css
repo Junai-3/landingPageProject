@@ -24,26 +24,23 @@
 .first {
     background-color: #1f2937;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: center;
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
-    gap: 20%;
-    padding-bottom: 50px;
 }
 
 .first .left-text {
     display: flex; 
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
     color: white;
 }
 
 .first .right-image {
-    object-fit: contain;
-    height: 100px;  
-    width: auto;
+    height: 50px;  
+    width: 50px;
 }
 
 .second {
