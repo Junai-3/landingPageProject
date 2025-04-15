@@ -28,7 +28,7 @@
     text-align: center;
 }
 
-.body-section.first {
+.first.body-section {
     background-color: #1f2937;
     text-align: center;
     display: flex;
@@ -38,7 +38,7 @@
     flex-wrap: wrap;
 }
 
-.body-section .left-text {
+.first .left-text {
     display: flex; 
     flex-direction: column;
     justify-content: flex-start;
@@ -48,11 +48,7 @@
 
 }
 
-.body-section.second {
-    text-align: center;
-}
-
-.body-section.third {
+.second.body-section {
     text-align: center;
     background-color: #E5E7EB;
 }
