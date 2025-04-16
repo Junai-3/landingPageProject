@@ -3,8 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-content: center;
-    flex-wrap: wrap;
-    flex: 1 1 1;
+    flex-wrap: nowrap;
 }
 
 .header .links {
@@ -13,6 +12,8 @@
     align-items: center;
     align-content: center;
     width: 60%;
+    max-width: 200px;
+    min-width: 200px;
 }
 
 .header .logo-image {
@@ -26,19 +27,81 @@
     justify-content: center;
     gap: 50px;
     background-color: #1f2937;
+    flex-wrap: nowrap;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .first .left {
     color: white;
+    align-content: center;
+    max-width: 200px;
+    min-width: 200px;
+}
+
+.first .left-text {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.left-text.button {
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    background-color: rgb(38, 127, 244);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.left-text.paragraph {
+    font-size: 14px;
+    color: E5E7EB;
+}
+
+.left-text.paragraph,
+.left-text.title,
+.left-text.button {
+    padding-bottom: 5px;
 }
 
 .first .right-image {
-    height: 200px;  
-    width: auto;
-    max-width: 200px;
+    height: 150px;  
+    width: 200px;
 }
 
 .second {
+    text-align: center;
+}
+
+.second .title {
+    padding: 10px;
+}
+
+.second .image-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.image-boxes .child {
+    outline: 3px solid rgb(0, 123, 255);
+    padding: 45px 45px 45px 45px;
+    border-radius: 4px;
+}
+
+.second .text-boxes {
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+}
+
+.text-boxes p {
+    max-width: 90px;
+    min-width: 90px;
+}
+
+.third {
     background-color: #E5E7EB;
 }
 
@@ -47,3 +110,7 @@
     text-align: center;
 }
 
+.individual-link {
+    color: white;
+    text-decoration: none;
+}
