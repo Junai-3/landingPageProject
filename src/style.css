@@ -5,7 +5,6 @@
     align-content: center;
     flex-wrap: wrap;
     flex: 1 1 1;
-
 }
 
 .header .links {
@@ -22,25 +21,21 @@
 }
 
 .first {
-    background-color: #1f2937;
     display: flex;
-    justify-content: center;
     align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    background-color: #1f2937;
 }
 
-.first .left-text {
-    display: flex; 
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
+.first .left {
     color: white;
 }
 
 .first .right-image {
-    height: 50px;  
-    width: 50px;
+    height: 200px;  
+    width: auto;
+    max-width: 200px;
 }
 
 .second {
