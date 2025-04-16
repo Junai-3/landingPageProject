@@ -8,12 +8,19 @@
 
 .header .links {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
-    align-content: center;
-    width: 60%;
-    max-width: 200px;
-    min-width: 200px;
+    flex-wrap: nowrap;
+    gap: 20px;
+    max-width: 300px;
+    min-width: 300px;
+}
+
+.individual-link {
+    font-family: "Hero Secondary", sans-serif;
+    font-size: 11px;
+    color: white;
+    text-decoration: none;
 }
 
 .header .logo-image {
@@ -25,18 +32,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
     background-color: #1f2937;
     flex-wrap: nowrap;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 60px;
 }
 
 .first .left {
     color: white;
     align-content: center;
-    max-width: 200px;
-    min-width: 200px;
+    max-width: 240px;
+    min-width: 240px;
 }
 
 .first .left-text {
@@ -45,18 +52,29 @@
     border: 0px;
 }
 
+.left-text.title {
+    color: #F9FAF8;
+    font-family:'Hero Main text', sans-serif;
+}
+
 .left-text.button {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 3px;
     padding: 5px 20px 5px 20px;
     border-radius: 5px;
-    background-color: rgb(38, 127, 244);
+    background-color: rgb(47, 127, 231);
     color: white;
     font-weight: bold;
     text-align: center;
+    font-size: 11px;
 }
 
 .left-text.paragraph {
-    font-size: 14px;
-    color: E5E7EB;
+    font-size: 11px;
+    color: #E5E7EB;
+    font-family: "Hero Secondary", sans-serif;
 }
 
 .left-text.paragraph,
@@ -65,35 +83,49 @@
     padding-bottom: 5px;
 }
 
-.first .right-image {
-    height: 150px;  
-    width: 200px;
+.right .right-image {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;  
+    width: 300px;
+    background-color:#6d6e70;
+    color: white;
+    font-size: 11px;
+    font-family: "Hero Secondary", sans-serif;
 }
 
 .second {
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .second .title {
     padding: 10px;
+    font-family: "Hero Main text", sans-serif;
 }
 
 .second .image-boxes {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 35px;
 }
 
 .image-boxes .child {
-    outline: 3px solid rgb(0, 123, 255);
+    outline: 3px solid rgb(53, 149, 251);
     padding: 45px 45px 45px 45px;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 .second .text-boxes {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 35px;
     font-size: 10px;
+    color: #383839;
+    font-family: "Hero Secondary", sans-serif;
+
 }
 
 .text-boxes p {
@@ -103,14 +135,99 @@
 
 .third {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.third .quote {
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+    color: #4f5050;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    max-width: 360px;
+    min-width: 360px;
+}
+
+.third .quoter {
+    display: flex;
+    align-self: center;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 11px;
+    color:#1d1d1d;
+    padding-left: 227px;
+}
+
+.quote .quote-text {
+    margin: 0px;
+
+}
+
+.quoter .quoter-name {
+    margin: 0px;
+}
+
+.fourth {
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.fourth .divbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 100px;
+    width: 460px;
+    background-color: rgb(68, 134, 242);
+    border-radius: 5px;
+    padding: 25px 0px 25px 50px;
+}
+
+.fourth .left-text {
+    flex-direction: column;
+    color: white;
+}
+
+.left-text .child,
+.right-button .child {
+    margin: 0px;
+    font-family: 'Roboto';
+}
+
+.child.title {
+    font-size: 10px;
+}
+
+.child.paragraph {
+    font-size: 8px;
+    color: #E5E7EB;
+}
+
+.right-button .child {
+    background-color: rgb(68, 134, 242);
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px 16px 2px 16px;
+    margin-right: 50px;
 }
 
 .footer {
     background-color: #1f2937;
     text-align: center;
-}
-
-.individual-link {
     color: white;
-    text-decoration: none;
+    padding: 15px;
+    font-size: 11px;
+    font-family: 'Hero', sans-serif;
 }
